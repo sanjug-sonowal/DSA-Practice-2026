@@ -13,8 +13,8 @@ int main(){
     int n = 5;
 
     char ch = 65;
-    for(int i = 0; i < n; i++){
-        for(int j = 'A' + (n - 1 - i); j <= 'A' + n - 1; j++){
+    for(int i = 1; i <= n; i++){
+        for(int j = 'A' + (n - i); j <= 'A' + n - 1; j++){
             char ch = j;
             cout<<ch;
         }
