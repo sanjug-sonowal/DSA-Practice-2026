@@ -10,11 +10,11 @@
 using namespace std;
 
 int main(){
-    int n = 5;
+    int n;
+    cin >> n;
 
-    char ch = 65;
     for(int i = 1; i <= n; i++){
-        for(int j = 'A' + (n - i); j <= 'A' + n - 1; j++){
+        for(int j = 'A' + (n - i); j <= 'A' + n - 1; j++){ // if  we take i = 0 then formula will be n - 1 - i
             char ch = j;
             cout<<ch;
         }
